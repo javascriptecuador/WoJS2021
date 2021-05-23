@@ -1,4 +1,7 @@
 # Workshop on Javascript 2021
+
+![Logo](src/img/WoJS_Variant2logo.svg)
+
 Este template nos sirve para el sitio del evento Workshop on Javascript 2021.
 Es necesario usar gulp para construir y minificar todos los archivos.
 Hasta ahora lo que esta en el dist es lo que se ha construido.
