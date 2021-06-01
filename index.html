@@ -13,6 +13,7 @@
 
     <!-- The compiled CSS file -->
     <link rel="stylesheet" href="css/production.css">
+    <link rel="stylesheet" href="css/cards.css">
 
     <!-- Web fonts -->
     <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
@@ -32,8 +33,8 @@
             <!-- Header -->
             <header class="align--center pt3 pb2">
                 <div class="container">
-                    <h1 class="mb3 reveal-on-scroll is-revealing" title="Workshop on Javascript"><img
-                            src="/img/WoJS_Variant2logo.svg" alt="Workshop on Javascript">
+                    <h1 class="mb3 reveal-on-scroll is-revealing" title="Workshop on Javascript">
+                        <img src="img/WoJS_Variant2logo.svg" alt="Workshop on Javascript">
                     </h1>
                     <h2 class="mb3 reveal-on-scroll is-revealing">Un espacio para compartir conocimiento y experiencias
                         en el mundo del software y open source
@@ -44,10 +45,8 @@
                 <!-- CTA -->
                 <section class="align--center pt3 pb3">
                     <p class="h3 mb2 reveal-on-scroll is-revealing">Sigue el evento..!</p>
-                    <a href="https://t.me/javascriptecuador"
-                        class="btn btn--outline reveal-on-scroll is-revealing">Saluda en Telegram</a>
-                    <a href=" https://n9.cl/wojsec2021"
-                        class="btn btn--default reveal-on-scroll is-revealing">Transmisión Youtube →</a>
+                    <a href="https://t.me/javascriptecuador" class="btn btn--outline reveal-on-scroll is-revealing">Saluda en Telegram</a>
+                    <a href=" https://n9.cl/wojsec2021" class="btn btn--default reveal-on-scroll is-revealing">Transmisión Youtube →</a>
                 </section>
             </header>
 
@@ -57,18 +56,18 @@
 
                     <!-- Info -->
                     <section class="pt2 pb3">
-                        <img class="mb3" src="/img/flyer-general.png" alt="Agenda presentación wojs2021">
+                        <img class="mb3" src="img/flyer-general.png" alt="Agenda presentación wojs2021">
                         <div class="grid-row">
                             <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
-                                <img class="icon mb1" src="/img/bucket.svg">
+                                <img class="icon mb1" src="img/bucket.svg">
                                 <p>Conferencias y charlas técnicas</p>
                             </div>
                             <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
-                                <img class="icon mb1" src="/img/flask.svg">
+                                <img class="icon mb1" src="img/flask.svg">
                                 <p>Consejos para tu carrera.</p>
                             </div>
                             <div class="grid-column span-one-third mt1 reveal-on-scroll is-revealing">
-                                <img class="icon mb1" src="/img/aircraft.svg">
+                                <img class="icon mb1" src="img/aircraft.svg">
                                 <p>Lista de trabajos.</p>
                             </div>
                         </div>
@@ -78,22 +77,70 @@
                     <!-- Presenters -->
                     <section class="pt3 pb3 align--center">
                         <h3 class="mb1">Los ponentes</h3>
-                        <div class="grid-row">
+                        <div class="grid-row ">
                             <div class="grid-column span-6 mt2">
-                                <img class="mb1" src="img/andros.jpg" alt="Foto Andros Fenollosa">
-                                <p class="small">Andros Fenollosa</p>
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img class="mb1" src="img/andros.jpg" alt="Foto Andros Fenollosa">
+                                            <!-- <p class="small">Andros Fenollosa</p> -->
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h2 class="flip-card_title">Andros Fenollosa</h2>
+                                            <p class="hide-on-mobile">Desarrollador Fullstack con experiencia en el
+                                                mundo empresarial y de arquitectura de software. </p>
+                                            <p>Project Manager en Sapps estudio.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="grid-column span-6 mt2">
-                                <img class="mb1" src="img/jimena.jpg" alt="Foto Jimena Escobar">
-                                <p class="small">Jimena Escobar</p>
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img class="mb1" src="img/jimena.jpg" alt="Foto Jimena Escobar">
+                                            <!-- <p class="small">Andros Fenollosa</p> -->
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h2 class="flip-card_title">Jimena Escobar</h2>
+                                            <p class="hide-on-mobile">Estudié Ingeniería informática especializándome en
+                                                ingeniería software en la Universidad de Alicante en España. </p>
+                                            <p>Mentor Leader en 4Geeks Academy España.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="grid-column span-6 mt2">
-                                <img class="mb1" src="img/santos.jpg" alt="Foto Santos Gallegos">
-                                <p class="small">Santos Gallegos</p>
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img class="mb1" src="img/santos.jpg" alt="Foto Santos Gallegos">
+                                            <!-- <p class="small">Andros Fenollosa</p> -->
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h2 class="flip-card_title">Santos Gallegos</h2>
+                                            <p class="hide-on-mobile">Contributor Open Source y miembro de la comunidad
+                                                Python Ecuador.</p>
+                                            <p>Core developer en Read the Docs.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="grid-column span-6 mt2">
-                                <img class="mb1" src="img/leonidas.jpg" alt="Foto Leonidas Esteban">
-                                <p class="small">Leonidas Esteban</p>
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img class="mb1" src="img/leonidas.jpg" alt="Foto Leonidas Esteban">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h2 class="flip-card_title">Leonidas Esteban</h2>
+                                            <p class="hide-on-mobile">Lleva 11 años trabajando como ingeniero de
+                                                software, apoyando comunidades y siendo mentor de personas que buscan su
+                                                primer empleo en la industria.</p>
+                                            <p>Educador y fundador de su propia escuela de programación.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -101,11 +148,10 @@
                     <!-- Sponsors -->
                     <section class="pt3 pb3 align--center">
                         <h3 class="mb2">Con el apoyo de..</h3>
-                        <img src="/img/logo_javascript_ecuador.svg" alt="Javascript Ecuador" class="m1"
-                            style="height:150px">
-                        <img class="m1" src="/img/loxa-libre.svg" alt="Loxa Libre" style="height:180px">
-                        <img class="m1" src="/img/python-ecuador.svg" alt="Python Ecuador" style="height:180px">
-                        <img class="m1" src="/img/ups.svg" alt="Universidad Politécnica Salesiana" style="height:180px">
+                        <img src="img/logo_javascript_ecuador.svg" alt="Javascript Ecuador" class="m1" style="height:150px">
+                        <img class="m1" src="img/loxa-libre.svg" alt="Loxa Libre" style="height:180px">
+                        <img class="m1" src="img/python-ecuador.svg" alt="Python Ecuador" style="height:180px">
+                        <img class="m1" src="img/ups.svg" alt="Universidad Politécnica Salesiana" style="height:180px">
                     </section>
 
                     <!-- Testimonials -->
@@ -136,10 +182,8 @@
                     <!-- CTA -->
                     <section class="align--center pt3 pb3">
                         <p class="h3 mb2 reveal-on-scroll is-revealing">Quieres conocer de mas eventos como este...!</p>
-                        <a href="https://www.eventbrite.com/o/javascript-ecuador-29109297643"
-                            class="btn btn--outline reveal-on-scroll is-revealing">Subscribirme a Eventos</a>
-                        <a href="https://t.me/javascriptecuador"
-                            class="btn btn--default reveal-on-scroll is-revealing">Saludar en telegram →</a>
+                        <a href="https://www.eventbrite.com/o/javascript-ecuador-29109297643" class="btn btn--outline reveal-on-scroll is-revealing">Subscribirme a Eventos</a>
+                        <a href="https://t.me/javascriptecuador" class="btn btn--default reveal-on-scroll is-revealing">Saludar en telegram →</a>
                         <p class="small mt1 text--gray">Usamos Eventbrite para nuestros eventos, subscribete para
                             enterarte de futuros eventos y también pasa a saludar en el grupo de Telegram</p>
                     </section>
@@ -150,12 +194,9 @@
             <!-- Footer -->
             <footer class="mt2 pb3 align--center">
                 <ul class="no-bullets list--inline mb0">
-                    <li class="m1 block-on-mobile"><a href="https://twitter.com/jsecuador_" class="link"><img
-                                class="icon" src="/img/source_icons_twitter.svg" alt="Twitter"> Twitter</a></li>
-                    <li class="m1 block-on-mobile"><a href="https://github.com/javascriptecuador" class="link"><img
-                                class="icon" src="/img/source_icons_github.svg" alt="GitHub"> Github</a></li>
-                    <li class="m1 block-on-mobile"><a href="https://www.youtube.com/channel/UCoTT6VuBlqlGYqVjHtM1duA"
-                            class="link"><img class="icon" src="/img/source_icons_youtube.svg" alt="YouTube">
+                    <li class="m1 block-on-mobile"><a href="https://twitter.com/jsecuador_" class="link"><img class="icon" src="img/source_icons_twitter.svg" alt="Twitter"> Twitter</a></li>
+                    <li class="m1 block-on-mobile"><a href="https://github.com/javascriptecuador" class="link"><img class="icon" src="img/source_icons_github.svg" alt="GitHub"> Github</a></li>
+                    <li class="m1 block-on-mobile"><a href="https://www.youtube.com/channel/UCoTT6VuBlqlGYqVjHtM1duA" class="link"><img class="icon" src="img/source_icons_youtube.svg" alt="YouTube">
                             YouTube</a></li>
                 </ul>
             </footer>
