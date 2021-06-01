@@ -1,3 +1,8 @@
+.flip-card_title {
+    padding: 1.5em 1em 0.5em 1em;
+    color: #FDC145
+}
+
 .flip-card {
     background-color: transparent;
     width: 400px;
@@ -10,6 +15,11 @@
     .flip-card {
         width: 40vw;
         height: 40vw;
+    }
+
+    .flip-card_title {
+        padding: 0.5em;
+        font-size: 1.5rem;
     }
 }
 
@@ -48,6 +58,16 @@
     transform: rotateY(180deg);
 }
 
-.flip-card_title {
-    color: #FDC145
+
+.card-zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.card-zoom:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
 }
